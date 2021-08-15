@@ -6,7 +6,7 @@ class Todo {
     { id: 2, title: "Посмотри кино", completed: false },
     { id: 3, title: "Посмотри сериал", completed: false },
   ];
-  constrictor() {
+  constructor() {
     makeAutoObservable(this);
   }
 
